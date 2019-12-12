@@ -29,10 +29,14 @@ you can start more instances of elasticsearch (일라스틱 서치 인스턴스 
 
 <br>
 
-to check three-node cluster is up and running (엘라스틱서치 인스턴스가 실행 되고 있는지 확인하기)
+to check three-node cluster is up and running from terminal (엘라스틱서치 인스턴스가 실행 되고 있는지 터미널에서 확인하기)
 ```
 curl -X GET "localhost:9200/_cat/health?v&pretty"
 ```
+node.total이 3으로 나와있는걸 확인 할 수 있다.<br>
+You can see that node.total is 3
+
+
 
 <br>
 
