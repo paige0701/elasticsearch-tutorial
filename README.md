@@ -44,3 +44,9 @@ check if elasticsearch is up - type in browser (엘라스틱서치 떴는지 브
 ```
 http://127.0.0.1:9200/
 ```
+
+if instance is not up and you try to access 
+```
+127.0.0.1:9200/animal/_doc/_search
+```
+You get an error ->  There was an error connecting to 127.0.0.1:9200/animal/_doc/_search. 
